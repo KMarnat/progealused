@@ -8,7 +8,7 @@ else console.log("Hot");
 
 
 function checkTemp(temp) {
-if (temp < 20)
+if (temp <= 20)
     return -1;
 else if (temp > 21 && temp < 40)
     return 0;
